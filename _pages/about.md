@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am Xiaolong Li,a third year undergraduate student in the [Jing's Lab](https://www.jinglab.net/),Department of Automation,Chongqing University,under the supervision of [Prof.Gangshan jing](https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm).
+I am Xiaolong Li, a third year undergraduate student in the [Jing's Lab](https://www.jinglab.net/), Department of Automation, Chongqing University, under the supervision of [Prof.Gangshan jing](https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm).
 
 My research focuses on dexterous manipulation and tactile sensor.
 
@@ -14,7 +14,8 @@ Email:[20222032@stu.cau.edu.cn]
 
 Education
 ======
-Department of Automation, Chongqing University (Chongqing, China)
+**Department of Automation, Chongqing University (Chongqing, China)** *09/2022-06/2026*
+B.Eng. in Automation
 
 Getting started
 ======
