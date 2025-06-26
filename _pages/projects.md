@@ -9,6 +9,18 @@ redirect_from:
 
 {% include base_path %}
 
+## Detection of the CQU School Emblem Using YOLOv5
+
+- 09/2024 - 01/2025
+- Course Project of Intelligent image processing, Chongqing University
+- Advisor: Prof. Xing Wu
+
+<p align="center">
+<iframe width="640" height="360" src="../files/24_iros_dlo_following.mp4" title="24_cqu_detection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+</p>
+
+In this course, we learned how the object detection model based on yolo, from data collection, data processing, model training to the recognition of specific objects.
+
 ## 19th National University Students Intellingent Car Race
 
 - 08/2024
@@ -20,15 +32,3 @@ redirect_from:
 </p>
 
 We independently design intelligent vehicles, use the open-source deep learning platform PaddlePaddle to complete model training, inference and deployment, and utilize computer vision technology and large language model technology to complete various complex tasks within the prescribed time.
-
-## Image processing in color+depth based 3D vision systems
-
-- 02/2018 - 11/2018
-- Institute of Artificial Intelligence and Robotics, Xi’an Jiaotong University
-- Advisor: Prof. Meng Yang
-
-Contents:
-
-- Depth-based stereoscopic image zooming.
-- Extension and application of Depth No-Synthesis-Error model for view synthesis in 3D video.
-- Color guided depth map restoration for synthesized view quality enhancement.
