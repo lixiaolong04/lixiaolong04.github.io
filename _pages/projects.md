@@ -12,10 +12,11 @@ redirect_from:
 ## 19th National University Students Intellingent Car Race
 
 - 08/2024
+- National Second Prize
 - Baidu's Smart Transportation Creative Track, Chongqing University
 
 <p align="center">
-<iframe width="640" height="360" src="https://www.bilibili.com/video/BV1TQKfz5E4F/?spm_id_from=333.1387.homepage.video_card.click&vd_source=ec0924579f247317c3117473352606b1" title="bilibili video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="640" height="360" src="https://player.bilibili.com/player.html?bvid=BV1TQKfz5E4F&page=1" title="bilibili video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </p>
 
 We independently design intelligent vehicles, use the open-source deep learning platform PaddlePaddle to complete model training, inference and deployment, and utilize computer vision technology and large language model technology to complete various complex tasks within the prescribed time.
