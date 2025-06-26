@@ -12,7 +12,7 @@ redirect_from:
 
 - 11/2024
 - National Third Prize
-- Baidu's Smart Transportation Creative Track, Chongqing University
+- Outdoor ROS-based Unmanned Vehicle Trajectory Track, Chongqing University
 
 <p align="center">
 <iframe width="640" height="360" src="../files/24_roscar.mp4" title="24_roscar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
@@ -27,7 +27,7 @@ Based on the ROS system and using a modular architecture to develop and debug fu
 - Advisor: Prof. Xing Wu
 
 <p align="center">
-<iframe width="640" height="360" src="../files/24_cqu_detection.mp4" title="24_cqu_detection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+<iframe width="960" height="720" src="../files/24_cqu_detection.mp4" title="24_cqu_detection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
 </p>
 
 In this course, we learned how the object detection model based on yolo, from data collection, data processing, model training to the recognition of specific objects.
