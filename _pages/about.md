@@ -49,24 +49,53 @@ redirect_from:
 
 ## Education
 
-<div class="education-list">
-  <div class="education-item">
-    <div class="education-item__period">2026.09 – 2029.06</div>
-    <div>
-      <h3>University of Science and Technology of China</h3>
+<div class="profile-list">
+  <article class="profile-entry">
+    <a class="profile-entry__logo" href="https://www.ustc.edu.cn/" aria-label="University of Science and Technology of China">
+      <img src="/images/institutions/ustc.jpg" alt="University of Science and Technology of China logo" loading="lazy">
+    </a>
+    <div class="profile-entry__content">
+      <div class="profile-entry__heading">
+        <h3><a href="https://www.ustc.edu.cn/">University of Science and Technology of China</a></h3>
+        <span class="profile-entry__period">09/2026 – 06/2029</span>
+      </div>
       <p>M.S. Student, Department of Automation <span class="muted">(Expected)</span></p>
     </div>
-  </div>
-  <div class="education-item">
-    <div class="education-item__period">2022.09 – 2026.06</div>
-    <div>
-      <h3>Chongqing University</h3>
+  </article>
+
+  <article class="profile-entry">
+    <a class="profile-entry__logo" href="https://www.cqu.edu.cn/" aria-label="Chongqing University">
+      <img src="/images/institutions/cqu.png" alt="Chongqing University logo" loading="lazy">
+    </a>
+    <div class="profile-entry__content">
+      <div class="profile-entry__heading">
+        <h3><a href="https://www.cqu.edu.cn/">Chongqing University</a></h3>
+        <span class="profile-entry__period">09/2022 – 06/2026</span>
+      </div>
+      <p>B.Eng. in Automation</p>
       <p>
-        B.Eng. in Automation · <a href="https://www.jinglab.net/">Jing's Lab</a> ·
+        Undergraduate research at <a href="https://www.jinglab.net/">Jing's Lab</a> ·
         Advised by <a href="https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm">Prof. Gangshan Jing</a>
       </p>
     </div>
-  </div>
+  </article>
+</div>
+
+## Internship Experience
+
+<div class="profile-list">
+  <article class="profile-entry">
+    <a class="profile-entry__logo profile-entry__logo--contain" href="https://www.robotera.com/" aria-label="ROBOTERA">
+      <img src="/images/institutions/robotera.png" alt="ROBOTERA logo" loading="lazy">
+    </a>
+    <div class="profile-entry__content">
+      <div class="profile-entry__heading">
+        <h3><a href="https://www.robotera.com/">ROBOTERA / Beijing Xingdong Jiyuan</a></h3>
+        <span class="profile-entry__period">05/2026 – 09/2026</span>
+      </div>
+      <p>Intern · Beijing, China</p>
+    </div>
+  </article>
 </div>
 
 <div class="projects-cta">

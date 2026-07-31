@@ -217,30 +217,97 @@
   font-size: 0.75rem;
 }
 
-.education-list {
+.profile-list {
   margin: 1.2rem 0 2.5rem;
 }
 
-.education-item {
+.profile-entry {
   display: grid;
-  grid-template-columns: 10rem minmax(0, 1fr);
-  gap: 1.1rem;
+  grid-template-columns: 5rem minmax(0, 1fr);
+  gap: 1.2rem;
+  align-items: start;
   padding: 1.15rem 0;
-  border-bottom: 1px solid var(--global-border-color);
 }
 
-.education-item__period {
-  color: var(--global-link-color);
-  font-size: 0.82rem;
-  font-weight: 700;
+.profile-entry + .profile-entry {
+  border-top: 1px solid var(--global-border-color);
 }
 
-.education-item h3,
-.education-item p {
+.profile-entry__logo {
+  display: block;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.28rem;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(20, 43, 55, 0.06);
+}
+
+.profile-entry__logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: left center;
+}
+
+.profile-entry__logo--contain img {
+  padding: 0.72rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.profile-entry__heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin: 0.15rem 0 0.45rem;
+}
+
+.profile-entry__heading h3,
+.profile-entry__content p {
   margin: 0;
 }
 
-.education-item p,
+.profile-entry__heading h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.profile-entry__heading h3 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.profile-entry__heading h3 a:hover {
+  color: var(--global-link-color);
+}
+
+.profile-entry__period {
+  flex: 0 0 auto;
+  color: var(--global-text-color-light);
+  font-size: 0.82rem;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.profile-entry__content p {
+  color: var(--global-text-color-light);
+  font-size: 0.88rem;
+  line-height: 1.65;
+}
+
+.profile-entry__content p + p {
+  margin-top: 0.22rem;
+}
+
+.profile-entry:last-child {
+  border-bottom: 1px solid var(--global-border-color);
+}
+
 .muted {
   color: var(--global-text-color-light);
 }
@@ -339,9 +406,24 @@
     aspect-ratio: 16 / 10;
   }
 
-  .education-item {
-    grid-template-columns: 1fr;
-    gap: 0.45rem;
+  .profile-entry {
+    grid-template-columns: 4.2rem minmax(0, 1fr);
+    gap: 0.9rem;
+  }
+
+  .profile-entry__logo {
+    width: 4.2rem;
+    height: 4.2rem;
+  }
+
+  .profile-entry__heading {
+    display: block;
+    margin-top: 0;
+  }
+
+  .profile-entry__period {
+    display: block;
+    margin-top: 0.15rem;
   }
 
   .projects-cta {
