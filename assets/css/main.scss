@@ -168,6 +168,7 @@
 
 .publication-card {
   grid-template-columns: minmax(240px, 0.88fr) minmax(0, 1.35fr);
+  height: 21.5rem;
   margin: 1.2rem 0 2.5rem;
 }
 
@@ -517,6 +518,10 @@
   .publication-card,
   .project-card {
     grid-template-columns: 1fr;
+  }
+
+  .publication-card {
+    height: auto;
   }
 
   .publication-card__figure img,
