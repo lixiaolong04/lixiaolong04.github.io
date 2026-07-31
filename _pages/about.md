@@ -93,7 +93,7 @@ redirect_from:
         <h3><a href="https://www.robotera.com/">ROBOTERA / Beijing Xingdong Jiyuan</a></h3>
         <span class="profile-entry__period">05/2026 – 09/2026</span>
       </div>
-      <p>Intern · Beijing, China</p>
+      <p>Dexterous Hand Reinforcement Learning Algorithm Intern · Beijing, China</p>
     </div>
   </article>
 </div>
