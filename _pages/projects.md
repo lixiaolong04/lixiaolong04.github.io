@@ -7,39 +7,68 @@ redirect_from:
   - /project
 ---
 
-{% include base_path %}
-## 19th National University Students Intellingent Car Race
+Selected projects from my undergraduate study in autonomous systems, robot perception,
+and embodied intelligence. My current research focuses on tactile dexterous manipulation.
 
-- 11/2024
-- National Third Prize
-- Outdoor ROS-based Unmanned Vehicle Trajectory Track, Chongqing University
+<article class="project-card">
+  <div class="project-card__media">
+    <video controls playsinline preload="metadata" aria-label="CQU emblem detection demonstration">
+      <source src="/files/24_cqu_detection.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="project-card__content">
+    <p class="project-card__meta">2024.09 – 2025.01 · Computer Vision</p>
+    <h2>CQU Emblem Detection with YOLOv5</h2>
+    <p>
+      Built an end-to-end object detection pipeline covering data collection and annotation,
+      preprocessing, YOLOv5 training, evaluation, and deployment for real-time CQU emblem recognition.
+    </p>
+    <div class="tag-list">
+      <span>YOLOv5</span><span>PyTorch</span><span>Object Detection</span>
+    </div>
+    <p class="project-card__note">Course project · Advisor: Prof. Xing Wu</p>
+  </div>
+</article>
 
-<p align="center">
-<iframe width="640" height="360" src="../files/24_roscar.mp4" title="24_roscar" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-</p>
+<article class="project-card">
+  <div class="project-card__media">
+    <video controls playsinline preload="metadata" aria-label="ROS autonomous vehicle demonstration">
+      <source src="/files/24_roscar.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="project-card__content">
+    <p class="project-card__meta">2024.11 · National Third Prize</p>
+    <h2>ROS-Based Outdoor Autonomous Vehicle</h2>
+    <p>
+      Developed and integrated mapping, obstacle perception, path planning, and navigation modules
+      on ROS for autonomous operation in outdoor competition environments.
+    </p>
+    <div class="tag-list">
+      <span>ROS</span><span>SLAM</span><span>Navigation</span>
+    </div>
+    <p class="project-card__note">19th National University Student Intelligent Car Competition</p>
+  </div>
+</article>
 
-Based on the ROS system and using a modular architecture to develop and debug functions, the unmanned vehicle can autonomously identify roadblocks and conduct two-dimensional mapping of the site to achieve autonomous navigation.
-
-## Detection of the CQU School Emblem Using YOLOv5
-
-- 09/2024 - 01/2025
-- Course Project of Intelligent image processing, Chongqing University
-- Advisor: Prof. Xing Wu
-
-<p align="center">
-<iframe width="480" height="360" src="../files/24_cqu_detection.mp4" title="24_cqu_detection" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-</p>
-
-In this course, we learned how the object detection model based on yolo, from data collection, data processing, model training to the recognition of specific objects.
-
-## 19th National University Students Intellingent Car Race
-
-- 08/2024
-- National Second Prize
-- Baidu's Smart Transportation Creative Track, Chongqing University
-
-<p align="center">
-<iframe width="640" height="360" src="https://player.bilibili.com/player.html?bvid=BV1TQKfz5E4F&page=1" title="bilibili video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-</p>
-
-We independently design intelligent vehicles, use the open-source deep learning platform PaddlePaddle to complete model training, inference and deployment, and utilize computer vision technology and large language model technology to complete various complex tasks within the prescribed time.
+<article class="project-card">
+  <div class="project-card__media project-card__media--embed">
+    <iframe
+      src="https://player.bilibili.com/player.html?bvid=BV1TQKfz5E4F&page=1&autoplay=0"
+      title="Baidu Smart Transportation autonomous vehicle demonstration"
+      loading="lazy"
+      allowfullscreen>
+    </iframe>
+  </div>
+  <div class="project-card__content">
+    <p class="project-card__meta">2024.08 · National Second Prize</p>
+    <h2>Baidu Smart Transportation Autonomous Vehicle</h2>
+    <p>
+      Designed and deployed a vision-and-language-enabled autonomous vehicle using PaddlePaddle,
+      combining perception, inference, and task planning to complete complex traffic scenarios.
+    </p>
+    <div class="tag-list">
+      <span>PaddlePaddle</span><span>Computer Vision</span><span>LLM</span>
+    </div>
+    <p class="project-card__note">19th National University Student Intelligent Car Competition</p>
+  </div>
+</article>
