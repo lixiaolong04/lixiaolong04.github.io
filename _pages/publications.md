@@ -31,17 +31,16 @@ You can also find my publications on
     <p class="publication-card__venue">Undergraduate Thesis · Chongqing University · 2026</p>
     <h3>
       <a href="/files/thesis/xiaolong-li-undergraduate-thesis-2026.pdf">
-        Research on In-Hand Rotation Algorithm of Multi-Fingered Dexterous Hand Based on Reinforcement Learning
+        基于强化学习的多指灵巧手手内旋转算法研究
       </a>
     </h3>
-    <p class="thesis-card__subtitle">基于强化学习的多指灵巧手手内旋转算法研究</p>
     <p class="publication-card__authors">
       <strong>Xiaolong Li</strong> · Advisor:
       <a href="https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm">Prof. Gangshan Jing</a>
     </p>
     <p>
-      A reinforcement-learning framework for robust in-hand rotation using a custom
-      four-fingered dexterous hand, with PPO, curriculum learning, and domain randomization.
+      Reinforcement learning for robust in-hand rotation with a custom four-fingered
+      dexterous hand using PPO, curriculum learning, and domain randomization.
     </p>
     <div class="publication-card__links">
       <a href="/files/thesis/xiaolong-li-undergraduate-thesis-2026.pdf">Thesis PDF</a>
