@@ -8,7 +8,6 @@ redirect_from:
 ---
 
 <div class="home-hero">
-  <p class="home-kicker">M.S. Student · University of Science and Technology of China</p>
   <p class="home-lead">
     I am an M.S. student in the Department of Automation at the
     <strong>University of Science and Technology of China (USTC)</strong>.
@@ -17,7 +16,8 @@ redirect_from:
   </p>
   <p>
     Before joining USTC, I received my B.Eng. degree in Automation from
-    <strong>Chongqing University</strong> in June 2026, where I was advised by
+    <strong>Chongqing University</strong> in June 2026. I conducted undergraduate research at
+    <a href="https://www.jinglab.net/">Jing's Lab</a>, where I was advised by
     <a href="https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm">Prof. Gangshan Jing</a>.
   </p>
   <div class="home-actions">
@@ -47,10 +47,6 @@ redirect_from:
   </div>
 </div>
 
-## Selected Publication
-
-{% include publication-rigidity-card.html %}
-
 ## Education
 
 <div class="education-list">
@@ -65,7 +61,10 @@ redirect_from:
     <div class="education-item__period">2022.09 – 2026.06</div>
     <div>
       <h3>Chongqing University</h3>
-      <p>B.Eng. in Automation · Advised by Prof. Gangshan Jing</p>
+      <p>
+        B.Eng. in Automation · <a href="https://www.jinglab.net/">Jing's Lab</a> ·
+        Advised by <a href="https://faculty.cqu.edu.cn/GangshanJing/zh_CN/index.htm">Prof. Gangshan Jing</a>
+      </p>
     </div>
   </div>
 </div>
