@@ -137,7 +137,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : "/images/xiaolong.png"
+og_image                 : "xiaolong.png"
 og_description           : "Tactile dexterous manipulation, reinforcement learning, and vision-language-action models."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
