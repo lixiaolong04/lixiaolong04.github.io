@@ -217,6 +217,111 @@
   font-size: 0.75rem;
 }
 
+.thesis-card {
+  margin: 1.2rem 0 2.5rem;
+  padding: 1.4rem;
+  border: 1px solid var(--global-border-color);
+  border-radius: 18px;
+  background: var(--global-bg-color);
+  box-shadow: 0 12px 34px rgba(20, 43, 55, 0.07);
+}
+
+.thesis-card__summary {
+  display: grid;
+  grid-template-columns: 11rem minmax(0, 1fr);
+  gap: 1.45rem;
+  align-items: start;
+}
+
+.thesis-card__cover {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgba(20, 43, 55, 0.09);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.thesis-card__cover:hover {
+  box-shadow: 0 12px 30px rgba(20, 43, 55, 0.14);
+  transform: translateY(-2px);
+}
+
+.thesis-card__cover img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 0.707;
+  object-fit: cover;
+}
+
+.thesis-card__content h3 {
+  margin: 0 0 0.55rem;
+  font-size: 1.18rem;
+  line-height: 1.45;
+}
+
+.thesis-card__content h3 a {
+  color: var(--global-text-color);
+  text-decoration: none;
+}
+
+.thesis-card__content h3 a:hover {
+  color: var(--global-link-color);
+}
+
+.thesis-card__subtitle {
+  margin: 0 0 0.7rem;
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+}
+
+.thesis-demo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin-top: 1.4rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--global-border-color);
+}
+
+.thesis-demo {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--global-border-color);
+  border-radius: 14px;
+  background: var(--global-code-background-color);
+}
+
+.thesis-demo video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  background: #0d1114;
+  object-fit: cover;
+}
+
+.thesis-demo figcaption {
+  padding: 0.8rem 0.9rem 0.9rem;
+}
+
+.thesis-demo figcaption strong,
+.thesis-demo figcaption span {
+  display: block;
+}
+
+.thesis-demo figcaption strong {
+  margin-bottom: 0.25rem;
+  color: var(--global-text-color);
+  font-size: 0.86rem;
+}
+
+.thesis-demo figcaption span {
+  color: var(--global-text-color-light);
+  font-size: 0.76rem;
+  line-height: 1.5;
+}
+
 .profile-list {
   margin: 1.2rem 0 2.5rem;
 }
@@ -404,6 +509,16 @@
   .publication-card__figure img {
     min-height: 0;
     aspect-ratio: 16 / 10;
+  }
+
+  .thesis-card__summary,
+  .thesis-demo-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .thesis-card__cover {
+    width: min(13rem, 70%);
+    margin: 0 auto;
   }
 
   .profile-entry {
