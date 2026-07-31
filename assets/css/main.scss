@@ -176,11 +176,24 @@
   background: #f2f5f7;
 }
 
-.publication-card__figure img {
+.publication-card__figure img,
+.publication-card__figure video {
+  display: block;
   width: 100%;
   height: 100%;
   min-height: 250px;
   object-fit: cover;
+}
+
+.publication-card__figure--video {
+  display: flex;
+  min-width: 0;
+  background: #0d1114;
+}
+
+.publication-card__figure--video video {
+  flex: 1 1 auto;
+  min-width: 0;
 }
 
 .publication-card__content {
@@ -506,7 +519,8 @@
     grid-template-columns: 1fr;
   }
 
-  .publication-card__figure img {
+  .publication-card__figure img,
+  .publication-card__figure video {
     min-height: 0;
     aspect-ratio: 16 / 10;
   }
